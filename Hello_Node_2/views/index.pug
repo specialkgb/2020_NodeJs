@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  ul
+    li
+      a(href="/home") 홈으로
+    li
+      a(href="/home/my") myPage
+    li
+      a(href="/home/input") input
+  form(method="POST", action="/home/input")
+    input(type="text", name="m_user")
+    button 전송
+
