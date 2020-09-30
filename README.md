@@ -17,3 +17,9 @@
 - npm install pug : jade view 엔진을 pug로 업데이트
 - npm uninstall jade
 - app.js의 view engine을 jade에서 pug로 변경
+
+### NodeJS + MongoDB 연동 ToDo List
+
+- nodejs express 와 mongoDB를 연동한 ToDoList 프로젝트
+- model : t_text String, t_date String, t_time String
+- ToDo List C R U D 구현
